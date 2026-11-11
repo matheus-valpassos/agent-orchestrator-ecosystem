@@ -1,35 +1,76 @@
 # Agent Orchestrator Ecosystem 🧠
 
-Um ecossistema de agentes IA focado em **Zero Intervenção**, **Isolamento Estrito de Contexto** e **Economia Máxima de Tokens**. 
+Um ecossistema de agentes de IA focado em Zero Intervenção, Isolamento Estrito de Contexto e Economia Máxima de Tokens.
 
-Em vez de usar prompts gigantes que alucinam e gastam milhares de tokens, este ecossistema delega o roteamento de skills para scripts Python locais e injeta regras de negócio (Clean Code, Segurança, Performance) de forma fracionada.
+Em vez de depender de prompts gigantes que alucinam e consomem milhares de tokens, este ecossistema delega o roteamento de skills para scripts Python locais e injeta regras de negócio como Clean Code, Segurança, Performance e CI/CD de forma fracionada.
 
-## 🚀 Como Instalar (Global)
+## Visão geral
 
-O sistema vive na sua pasta de usuário (`~/.gemini` e `~/.agents`), permitindo que você o chame em qualquer projeto.
+O Orquestrador atua como um cérebro local por projeto. Ele lê a memória contextual do repositório, identifica o subagente mais adequado para a tarefa e aplica padrões arquiteturais sem exigir conversas longas, prompts inflados ou decisões manuais repetitivas.
 
-**Windows:**
-Dê um duplo clique no arquivo `install.bat`.
+### O que ele entrega
 
-**Linux / Mac:**
+- Zero intervenção humana em roteamento de tarefas
+- Contexto isolado por projeto
+- Redução drástica de custo de tokens
+- Regras de qualidade embutidas no fluxo
+- Delegação inteligente para agentes especializados
+
+## 🚀 Instalação global
+
+O sistema vive na pasta do usuário em `~/.gemini` e `~/.agents`, permitindo uso em qualquer projeto no computador.
+
+### Windows
+
+1. Dê um duplo clique no arquivo `install.bat`.
+2. O instalador criará os atalhos e estruturas globais necessárias.
+
+### Linux / macOS
+
 ```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-🛠️ Como Usar (Por Projeto)
-Vá até a pasta do projeto onde você deseja programar.
+## 🛠️ Como usar por projeto
 
-Inicialize o cérebro local daquele projeto rodando o script:
+Vá até a pasta do projeto em que você deseja trabalhar e inicialize o cérebro local daquele contexto.
 
-Windows: Clique no atalho ~/.gemini/Iniciar_Cerebro.bat
+### Windows
 
-Linux/Mac: python3 ~/.gemini/init_memory.py
+Clique no atalho `~/.gemini/Iniciar_Cerebro.bat`.
 
-O script criará a pasta .memory/ (com regras de Rollback, Segurança e CI/CD injetadas).
+### Linux / macOS
 
-Abra o seu Cursor, Claude Code ou terminal do projeto, e dê o comando usando o orquestrador. Exemplo:
+```bash
+python3 ~/.gemini/init_memory.py
+```
 
-"Crie os modelos de banco de dados para um blog."
+Esse comando criará a pasta `.memory/`, contendo regras de rollback, segurança, performance e integração contínua já embutidas no contexto do projeto.
 
-O Orquestrador lerá a memória local, escolherá o subagente certo e aplicará os padrões arquiteturais sem conversas fiadas.
+## Exemplo de uso
+
+Abra o Cursor, Claude Code, VS Code ou o terminal do projeto e envie uma instrução como:
+
+> "Crie os modelos de banco de dados para um blog."
+
+O Orquestrador vai ler a memória local, escolher o subagente correto e aplicar os padrões de arquitetura apropriados sem conversas fiadas nem excesso de contexto.
+
+## Como funciona
+
+- O projeto mantém memória local e contextual
+- O orquestrador interpreta a intenção da tarefa
+- O subagente certo é selecionado com base na skill necessária
+- As regras de qualidade entram no fluxo sem poluir o prompt principal
+- O resultado é mais previsível, mais rápido e mais eficiente
+
+## Objetivo
+
+O ecossistema foi pensado para aumentar a produtividade de agentes IA sem transformar o prompt em um monólito enganoso. O foco está em organização, isolamento de contexto e execução objetiva.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido com 🧠 por **Matheus Valpassos**  
+[github.com/matheus-valpassos](https://github.com/matheus-valpassos)
