@@ -73,4 +73,5 @@ O ecossistema foi pensado para aumentar a produtividade de agentes IA sem transf
 ## 👨‍💻 Autor
 
 Desenvolvido com 🧠 por **Matheus Valpassos**  
-[github.com/matheus-valpassos](https://github.com/matheus-valpassos)
+[github.com/matheus-valpassos](https://github.com/matheus-valpassos)  
+**Mtech - Purr. Ecosystem**
