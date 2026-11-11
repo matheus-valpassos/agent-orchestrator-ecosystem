@@ -9,3 +9,8 @@ cp -r .agents ~/
 echo ""
 echo "[Sucesso] Orquestrador instalado em ~/"
 echo "Para inicializar um projeto, execute: python3 ~/.gemini/init_memory.py"
+echo ""
+echo "==================================================="
+echo " Desenvolvido por: Matheus Valpassos"
+echo " GitHub: github.com/matheus-valpassos"
+echo "==================================================="
