@@ -39,6 +39,10 @@ HASHES_PATH = DATA_DIR / "registry_hashes.json"
 SEARCH_PATHS = [
     SKILLS_ROOT / ".claude" / "skills",   # registered skills
     SKILLS_ROOT,                           # top-level standalone
+    Path.home() / ".agents" / "skills",
+    Path.home() / ".claude" / "skills",
+    Path.home() / ".gemini" / "config" / "skills",
+    Path.home() / ".gemini" / "skills",
 ]
 MAX_DEPTH = 3  # max directory depth for SKILL.md search
 

@@ -32,3 +32,9 @@ Com base no retorno do terminal, execute a ação correspondente:
 ## 4. Finalização e Segurança (Constitutional Check)
 - **Log Automático:** Após qualquer alteração de código bem-sucedida, acione o `context-scribe` passando estritamente o *diff* da mudança para atualizar o `.memory/STATE.md`.
 - **Rollback Imediato:** Se uma alteração quebrar o sistema ou falhar, leia a tag `Último estado estável` no `STATE.md` e reverta as alterações IMEDIATAMENTE antes de tentar debugar. A recuperação tem prioridade sobre a análise.
+
+---
+
+Desenvolvido com 🧠 por Matheus Valpassos* 
+[github.com/matheus-valpassos](https://github.com/matheus-valpassos)  
+Mtech - Purr. Ecosystem
