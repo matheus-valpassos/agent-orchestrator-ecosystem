@@ -92,7 +92,7 @@ echo  - Cursor IDE                     -> ~/.cursorrules
 echo  - Windsurf, Copilot, ChatGPT     -> Consulte o MANUAL_DE_USO.md
 echo.
 echo ========================================================================
-echo Desenvolvido com 🧠 por Matheus Valpassos* 
+echo Desenvolvido com 🧠 por Matheus Valpassos
 echo https://github.com/matheus-valpassos
 echo Mtech - Purr. Ecosystem
 echo ========================================================================

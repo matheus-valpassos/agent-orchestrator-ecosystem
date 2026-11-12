@@ -200,6 +200,6 @@ agent-orchestrator-ecosystem/
 
 ---
 
-Desenvolvido com 🧠 por Matheus Valpassos*  
+Desenvolvido com 🧠 por Matheus Valpassos
 [github.com/matheus-valpassos](https://github.com/matheus-valpassos)  
 Mtech - Purr. Ecosystem

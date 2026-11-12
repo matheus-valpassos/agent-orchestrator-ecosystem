@@ -268,6 +268,6 @@ Uma tabela formatada mostrará o nome de cada skill, status, linguagem e categor
 
 ---
 
-Desenvolvido com 🧠 por Matheus Valpassos*  
+Desenvolvido com 🧠 por Matheus Valpassos
 [github.com/matheus-valpassos](https://github.com/matheus-valpassos)  
 Mtech - Purr. Ecosystem

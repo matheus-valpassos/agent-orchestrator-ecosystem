@@ -333,7 +333,7 @@ Com base no retorno do terminal, execute a ação correspondente:
 
 ---
 
-Desenvolvido com 🧠 por Matheus Valpassos* 
+Desenvolvido com 🧠 por Matheus Valpassos
 [github.com/matheus-valpassos](https://github.com/matheus-valpassos)  
 Mtech - Purr. Ecosystem
 """
@@ -356,7 +356,7 @@ Mtech - Purr. Ecosystem
         print("  -> .memory/patterns/ (Regras consolidadas injetadas)")
         print("  -> CLAUDE.md & .cursorrules (Regras do Coordenador injetadas)")
         print("\n" + "="*65)
-        print("Desenvolvido com 🧠 por Matheus Valpassos*")
+        print("Desenvolvido com 🧠 por Matheus Valpassos")
         print("https://github.com/matheus-valpassos")
         print("Mtech - Purr. Ecosystem")
         print("="*65)

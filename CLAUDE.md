@@ -35,6 +35,6 @@ Com base no retorno do terminal, execute a ação correspondente:
 
 ---
 
-Desenvolvido com 🧠 por Matheus Valpassos* 
+Desenvolvido com 🧠 por Matheus Valpassos
 [github.com/matheus-valpassos](https://github.com/matheus-valpassos)  
 Mtech - Purr. Ecosystem
